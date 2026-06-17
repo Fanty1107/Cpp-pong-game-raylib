@@ -19,3 +19,4 @@ ipch/
 
 # Outros
 *.log
+"packages/" 
