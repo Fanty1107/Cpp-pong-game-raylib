@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="PongRayLib.vcxproj" Id="c9946238-74f2-4d5a-88d1-70cf68c166fb" />
+</Solution>

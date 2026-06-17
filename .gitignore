@@ -1,0 +1,21 @@
+# Visual Studio
+.vs/
+x64/
+*.user
+*.suo
+*.aps
+Debug/
+Release/
+ipch/
+
+# Compilados
+*.obj
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.exp
+*.lib
+
+# Outros
+*.log
