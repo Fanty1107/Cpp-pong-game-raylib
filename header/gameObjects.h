@@ -1,39 +1,49 @@
 #pragma once
 #include"raylib.h"
-typedef struct Player {
+
+struct Player {
 	Vector2 pos;
 	Vector2 direction;
 	float speed;
 	Rectangle PlayerRec;
-}Player;
+	Player();
+};
 
-typedef struct CPU {
+struct CPU {
 	Vector2 pos;
 	Vector2 direction;
 	float speed;
 	Rectangle cpuRec;
-}CPU;
+	CPU();
+};
 
-typedef struct Ball {
+struct Ball {
 	Vector2 center;
 	Vector2 direction;
 	float speed;
 	float radius;
-}Ball;
+	void invertDirection();
+	void inCenter();
+	void WallCollide(int height);
+	Ball(int widthWindow, int heightWindow);
+};
 
-typedef struct Colliders {
+struct Colliders {
 	Rectangle left;
 	Rectangle right;
-}Colliders;
+	Colliders();
+};
 
-typedef struct GameState {
+struct GameState {
 	bool win;
 	bool gameOver;
 	bool reset;
 	bool pause;
-}GameState;
+	GameState();
+};
 
-typedef struct Score {
+struct Score {
 	int playerScore;
 	int cpuScore;
-}Score;
+	Score();
+};
