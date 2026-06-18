@@ -1,5 +1,5 @@
 #include "raylib.h"
-#include "gameObjects.h"
+#include "../header/gameObjects.h"
 
 
 /*

@@ -1,4 +1,4 @@
-#include "gameObjects.h"
+#include "../header/gameObjects.h"
 
 Player::Player() {
 	pos = { .x = 0.0f, .y = 490.0f };
